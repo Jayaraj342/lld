@@ -8,6 +8,7 @@ import com.uditagarwal.service.ParkingLotService;
 
 import java.io.IOException;
 
+// https://github.com/Jayaraj342/leetcode-solutions/tree/master/src/zzz-miscellaneous/system-design/low-level/parking-lot
 public class Main {
     public static void main(final String[] args) throws IOException {
         final OutputPrinter outputPrinter = new OutputPrinter();

@@ -1,17 +1,14 @@
 package com.uditagarwal.api;
 
 import com.uditagarwal.model.Screen;
-import com.uditagarwal.model.Seat;
 import com.uditagarwal.model.Theatre;
 import com.uditagarwal.services.TheatreService;
 import lombok.AllArgsConstructor;
 import lombok.NonNull;
 
-import java.util.UUID;
-
 @AllArgsConstructor
 public class TheatreController {
-    final private TheatreService theatreService;
+    private final TheatreService theatreService;
 
     public String createTheatre(@NonNull final String theatreName) {
         return theatreService.createTheatre(theatreName).getId();

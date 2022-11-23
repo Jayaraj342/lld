@@ -1,10 +1,8 @@
 package com.uditagarwal.model;
 
-import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NonNull;
 
-import javax.management.MXBean;
 import java.util.ArrayList;
 import java.util.List;
 

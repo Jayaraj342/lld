@@ -20,7 +20,7 @@ public class Theatre {
         this.screens = new ArrayList<>();
     }
 
-    public void addScreen(@NonNull final  Screen screen) {
+    public void addScreen(@NonNull final Screen screen) {
         screens.add(screen);
     }
 }

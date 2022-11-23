@@ -1,9 +1,10 @@
 package com.uditagarwal.api;
 
-import com.uditagarwal.model.Booking;
 import com.uditagarwal.model.Seat;
 import com.uditagarwal.model.Show;
-import com.uditagarwal.services.*;
+import com.uditagarwal.services.BookingService;
+import com.uditagarwal.services.ShowService;
+import com.uditagarwal.services.TheatreService;
 import lombok.AllArgsConstructor;
 import lombok.NonNull;
 

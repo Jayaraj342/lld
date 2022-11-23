@@ -17,7 +17,7 @@ public class PaymentsController {
         paymentsService.processPaymentFailed(bookingService.getBooking(bookingId), user);
     }
 
-    public void paymentSuccess(@NonNull final  String bookingId, @NonNull final String user) {
+    public void paymentSuccess(@NonNull final String bookingId, @NonNull final String user) {
         bookingService.confirmBooking(bookingService.getBooking(bookingId), user);
     }
 
